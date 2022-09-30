@@ -50,7 +50,6 @@ namespace _22_7
             this.txtiss = new System.Windows.Forms.TextBox();
             this.buSalNet = new System.Windows.Forms.Button();
             this.txtsalnet = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.la)).BeginInit();
@@ -58,9 +57,9 @@ namespace _22_7
             // 
             // btguardar
             // 
-            this.btguardar.BackColor = System.Drawing.Color.Blue;
+            this.btguardar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btguardar.ForeColor = System.Drawing.Color.White;
+            this.btguardar.ForeColor = System.Drawing.Color.DarkRed;
             this.btguardar.Location = new System.Drawing.Point(15, 235);
             this.btguardar.Name = "btguardar";
             this.btguardar.Size = new System.Drawing.Size(104, 37);
@@ -214,24 +213,12 @@ namespace _22_7
             this.txtsalnet.Size = new System.Drawing.Size(100, 20);
             this.txtsalnet.TabIndex = 16;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DarkSlateBlue;
-            this.label6.Location = new System.Drawing.Point(166, 27);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 24);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Proyecto ";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(463, 310);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtsalnet);
             this.Controls.Add(this.buSalNet);
             this.Controls.Add(this.txtiss);
@@ -283,7 +270,6 @@ namespace _22_7
         private System.Windows.Forms.Button btisss;
         private System.Windows.Forms.TextBox txtsalnet;
         private System.Windows.Forms.Button buSalNet;
-        private System.Windows.Forms.Label label6;
     }
 }
 
